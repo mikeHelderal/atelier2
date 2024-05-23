@@ -74,3 +74,14 @@ section{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.createTask{
+    background-color: #242424;
+    color: #FFF;
+    display: grid;
+    width: 20%;
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}

@@ -20,7 +20,6 @@ const Inscription: React.FC = () => {
     event.preventDefault();
     try {
       const response = await axios.post(URL.SIGNUP,user ); // Utilisation de axios avec une URL définie
-      console.log(response);
     } catch (error: any) {
       setErrorMessage(error.response.data.message);
     }

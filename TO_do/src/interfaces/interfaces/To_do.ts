@@ -16,3 +16,19 @@ export type RootState = {
     data: Todo[];
   }
 }
+
+export type taches = {
+  
+    "id": number,
+    "title": string,
+    "categoryId": number,
+    "userId": number,
+    "createdAt": string,
+    "category": {
+      "id": number,
+      "name": string
+    },
+    "done": boolean,
+    "expiration": string
+  
+}
